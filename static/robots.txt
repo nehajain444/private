@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: */tags/
+
+sitemap: https://deep0x00.netlify.com/sitemap.xml
