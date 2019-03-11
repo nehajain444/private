@@ -25,7 +25,7 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Helmet title={"Deepanshu's Blog"} />
-      <Header title="Home Page">GSoC 2018 at Debian | ChapterLead NullBhopal</Header>
+      <Header title="Home">GSoC 2018 at Debian | ChapterLead NullBhopal</Header>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList

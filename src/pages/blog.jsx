@@ -10,7 +10,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Blog Page'} />
-      <Header title="Blog Page">GSoC 2018 at Debian | ChapterLead NullBhopal</Header>
+      <Header title="Blog">GSoC 2018 at Debian | ChapterLead NullBhopal</Header>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}
